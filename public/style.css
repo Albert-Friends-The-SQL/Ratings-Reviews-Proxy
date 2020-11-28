@@ -33,12 +33,12 @@ time, mark, audio, video {
 } */
 
 #reviews {
-  width: 73%;
-  /* left: 25%; */
+  width: 80%;
+  margin-left: 7%
 }
 
 #container4 {
-  width: 22%;
+  width: 21%;
   height: 100vh;
   position: sticky;
   top: 0;
