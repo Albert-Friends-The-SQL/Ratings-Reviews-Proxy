@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 
 #container1 {
-  width: 74.8%;
+  width: 77.9%;
 }
 
 /* #service1 {
@@ -42,7 +42,7 @@ time, mark, audio, video {
   height: 100vh;
   position: sticky;
   top: 0;
-  padding-left: 3%;
+  padding-left: 1%;
   padding-top: 1%;
   border-left: 1px solid lightgray;
   align-self: flex-start;
