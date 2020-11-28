@@ -43,8 +43,8 @@
 module.exports = {
   service1: {
     api: '/products',
-    url: 'http://13.52.247.44:3001/',
-    // url: 'http://localhost:3001',
+    // url: 'http://13.52.247.44:3001/',
+    url: 'http://localhost:3001',
     bundle: 'bundle.js',
   },
   // service2: {
@@ -54,14 +54,14 @@ module.exports = {
   // },
   service3: {
     api: '/reviews',
-    url: 'http://18.216.121.232:3003/',
-    // url: 'http://localhost:3003',
+    // url: 'http://18.216.121.232:3003/',
+    url: 'http://localhost:3003',
     bundle: 'bundle.js',
   },
   service4: {
     api: '/sidebar',
-    url: 'http://3.101.148.62:3004/',
-    // url: 'http://localhost:3004',
+    // url: 'http://3.101.148.62:3004/',
+    url: 'http://localhost:3004',
     bundle: 'bundle.js',
   },
 };
