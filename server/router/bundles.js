@@ -6,13 +6,13 @@ const {
 
 const router = Router();
 
-router.use('/service1.js', createProxyMiddleware({
-  target: service1.url,
-  pathRewrite: {
-    '^/bundles/service1.js': service1.bundle,
-  },
-  changeOrigin: true,
-}));
+// router.use('/service1.js', createProxyMiddleware({
+//   target: service1.url,
+//   pathRewrite: {
+//     '^/bundles/service1.js': service1.bundle,
+//   },
+//   changeOrigin: true,
+// }));
 
 // router.use('/service2.js', createProxyMiddleware({
 //   target: service2.url,
@@ -30,12 +30,12 @@ router.use('/service3.js', createProxyMiddleware({
   changeOrigin: true,
 }));
 
-router.use('/service4.js', createProxyMiddleware({
-  target: service4.url,
-  pathRewrite: {
-    '^/bundles/service4.js': service4.bundle,
-  },
-  changeOrigin: true,
-}));
+// router.use('/service4.js', createProxyMiddleware({
+//   target: service4.url,
+//   pathRewrite: {
+//     '^/bundles/service4.js': service4.bundle,
+//   },
+//   changeOrigin: true,
+// }));
 
 module.exports = router;
